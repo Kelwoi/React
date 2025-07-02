@@ -1,0 +1,79 @@
+/* Центруємо контент */
+.app-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+/* Форма */
+.review-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #323442;
+}
+
+.review-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.review-form input,
+.review-form select,
+.review-form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.review-form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #008cff;
+  color: rgb(68, 66, 66);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.review-form button:hover {
+  background-color: #006fd3;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* Відгуки */
+.review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.review-card {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #312424;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.review-header {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.review-rating {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
